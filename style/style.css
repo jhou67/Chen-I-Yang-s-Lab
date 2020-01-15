@@ -1,0 +1,116 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #85B8CB;
+  line-height: 1.2;
+}
+
+#header {
+  width: 100%;
+}
+
+#header .navbar {
+  background-color: #1D6A96;
+}
+
+#header .navbar .container {
+  max-width: 1170px;
+}
+
+#header .navbar .container .nav_logo {
+  font-family: 'IM Fell Great Primer SC', serif;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Marck Script', cursive;
+  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Bad Script', cursive;
+  font-family: 'Nothing You Could Do', cursive;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 26px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  #header .navbar .container .nav_logo {
+    margin-left: calc(50% - 50px);
+  }
+}
+
+#header .navbar .container .navbar-nav {
+  font-family: 'IM Fell Great Primer SC', serif;
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+main #section_2 {
+  margin-top: 60px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #section_2 .container {
+  width: 100%;
+}
+
+main #section_2 .container .card {
+  color: #FFFFFF;
+  background-color: rgba(40, 59, 66, 0.6);
+  margin-left: 25px;
+  padding: 0;
+  font-size: 16pt;
+  letter-spacing: 1.5px;
+  font-family: 'cwTeXFangSong', serif;
+}
+
+main #section_2 .container .card .card-body button {
+  background-color: #D1DDDB;
+  font-family: 'IM Fell Great Primer SC', serif;
+}
+
+main #section_2 .container .card .card-body .dropdown-menu {
+  background-color: rgba(40, 59, 66, 0.6);
+  color: #111111;
+}
+
+main #section_2 .container .swiper-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #section_2 .container .swiper-container .swiper-wrapper .swiper-side {
+  width: 100%;
+  height: 90%;
+  margin: 0;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main #section_2 .container .swiper-container .swiper-wrapper .swiper-side img {
+  width: 90%;
+}
+
+.footer_bot {
+  margin-top: 60px;
+  display: block;
+  color: #D1DDD8;
+  background-color: #1D6A96;
+}
+
+.footer_bot a {
+  color: #D1DDD8;
+}
+/*# sourceMappingURL=style.css.map */
